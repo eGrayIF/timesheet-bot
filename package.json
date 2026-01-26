@@ -1,0 +1,17 @@
+{
+    "name": "timesheet-bot",
+    "version": "1.0.0",
+    "description": "Slack bot that automatically processes Toggl timesheet PDFs and forwards rounded time to HR",
+    "main": "app.js",
+    "scripts": {
+          "start": "node app.js",
+          "dev": "node --watch app.js"
+    },
+    "dependencies": {
+          "@slack/bolt": "^3.17.0",
+          "pdf-parse": "^1.1.1"
+    },
+    "engines": {
+          "node": ">=18.0.0"
+    }
+}
